@@ -36,7 +36,7 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         "av>=8.0.3",
-        "detectron2@git+https://github.com/fpaludi/detectron2.git",
+        "detectron2@git+https://github.com/fpaludi/detectron2.git@8e03310ca690ed6010ef44d587eeefa3644daf26#egg=detectron2-0.6",
         "opencv-python-headless>=4.5.3.56",
         "scipy>=1.5.4",
     ],
